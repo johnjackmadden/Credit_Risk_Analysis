@@ -22,3 +22,19 @@
 ### image 4
 ### - The high risk precision rate was 1% with the ceall at 61%
 ### - The low risk precision rate was 100% with a recall at 70%
+## Undersampling
+### image 5
+### Using ClusterCentroids Model, we clustered together alike data inm het majority class to represent all clusters. This set a total of 246 high and low risk test groups. This provided a balanced accuracy score of 54% for this alogrithym. 
+### image 6
+### -The high risk precision rate was 1% with the ceall at 69%
+### -The low risk precision rate was 100% with a recall at 40%
+
+
+
+
+
+
+
+
+
+
