@@ -28,13 +28,21 @@
 ### image 6
 ### -The high risk precision rate was 1% with the ceall at 69%
 ### -The low risk precision rate was 100% with a recall at 40%
-
-
-
-
-
-
-
-
-
-
+## Combination Sampling
+### image 7
+### Using the Synthetic Minority Oversamplignm Technique + Edited NearestNeighbors Model (or SMOTEENN), we strike a balance of over and undersampling by boosting both groups to similar counts. This provided a balanced accuracy score of 64% for this test.
+### image 8
+### -The high risk precision rate was 1% with a recall of 72%
+### -The low risk precision was at 100% with a recall at 57%
+## Additional Machine learning
+### image 9
+### The BalancedRandomForestClassifier Model takes two trees of a similar size to the minoirty class that are used to represent both the majority and minority class. This algorythm had a balanced accuracy score of 78%.
+### - The high risk precision rate was 4% with the ceall at 67%
+### - The low risk precision was at 100% with a recall at 91%
+### image 10
+### Lastly, the EasyEnsembleClassifier Model is a set of classifiers where individual decisions are combined into new examples. The balanced accuracy score of this method was 93%
+### image 11
+### - The high risk precision rate was 7% with the ceall at 91%
+### - The low risk precision was at 100% with a recall at 94%
+# Summary
+### In summary, there were six different models of machine learning used to test this data set with varying results for accuracy and precision. The Easy Ensemble Classifier preformed the best with an accuracy rate of 93% and a 7% precision rate predicting high risk canidates. The sensitivity of these calculations (recall) was also the highest at 91% compared to the other methods. The preformance for low risk canidates was also stellar with a precision rate of 100% and a sensitvitry of 94%. Therefore I would reccomend this model above all others. However I would like to note that machine learning algorithyms do have shortcomings in the context of the probelms they are applied to, where in a business sense it may be better to deny a loan to a qualified canidate than to let a high risk canidate through the process, so the margin of risk that someone takes on while using this method may not be tolerable depending on the setting.
