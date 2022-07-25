@@ -31,7 +31,7 @@
 ## Combination Sampling
 ![image7](/Resources/smoteenn.png)
 ### Using the Synthetic Minority Oversampling Technique + Edited NearestNeighbors Model (or SMOTEENN), we strike a balance of over and under sampling by boosting both data sets to a higher amount. This had a balanced accuracy score of 64%
-![image8](/Resources/smoteenn.png)
+![image8](/Resources/smoteennresults.png)
 ### -The high risk precision rate was 1% with a recall of 72%
 ### -The low risk precision was at 100% with a recall at 57%
 ## Additional Machine learning
