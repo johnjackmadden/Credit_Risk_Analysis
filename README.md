@@ -30,8 +30,7 @@
 ### -The low risk precision rate was 100% with a recall at 40%
 ## Combination Sampling
 ![image7](/Resources/smoteenn.png)
-### Using the Synthetic Minority Oversamplignm Technique + Edited NearestNeighbors Model (or SMOTEENN), we strike a balance of over and undersampling by boosting both
-data sets to a higher amount. This had a balanced accuracy score of 64%
+### Using the Synthetic Minority Oversamplignm Technique + Edited NearestNeighbors Model (or SMOTEENN), we strike a balance of over and undersampling by boosting both data sets to a higher amount. This had a balanced accuracy score of 64%
 ![image7](/Resources/smoteenn.png)
 ### -The high risk precision rate was 1% with a recall of 72%
 ### -The low risk precision was at 100% with a recall at 57%
