@@ -11,27 +11,27 @@
 ## Summary
 ### After the data was cleaned there was a total of 68,470 low risk applicants, and 347 high risk applicants. Utalizing the python libraries scikit-learn and imbalanced-learn, we split the data into a 75/25% split data set for training vs testing for various analysis using various methods
 # Oversampling
-### image1
+![image1](/Resources/oversample.png)
 ### The RandomOverSampler model randomly takes data from the minority category and adds it to the training set until they are both equivilent, resulting in 51,366 high risk loan groups and 51,366 low risk loan groups. This provided a balanced accuracy score of 66% for this test.
-### image 2
+![image2](/Resources/oversampleresults.png)
 ### - The high risk precision rate was 1% with the ceall at 72%
 ### - The low risk precision rate was 100% with a recall at 60
 ## SMOTE
-### image 3
+![image3](/Resources/smote.png)
 ### Using the Synthetic Minoirty Oversampling Technique model (or SMOTE), also increasees the size of the minority class by creating new values based on the values of the current minority data set, instead of by random seletion. This provided a balanced accurracy of 65% for this test.
-### image 4
+![image4](/Resources/smoteresults.png)
 ### - The high risk precision rate was 1% with the ceall at 61%
 ### - The low risk precision rate was 100% with a recall at 70%
 ## Undersampling
-### image 5
+![image5](/Resources/undersample.png)
 ### Using ClusterCentroids Model, we clustered together alike data inm het majority class to represent all clusters. This set a total of 246 high and low risk test groups. This provided a balanced accuracy score of 54% for this alogrithym. 
-### image 6
+![image6](/Resources/undersampleresults.png)
 ### -The high risk precision rate was 1% with the ceall at 69%
 ### -The low risk precision rate was 100% with a recall at 40%
 ## Combination Sampling
-### image 7
-### Using the Synthetic Minority Oversamplignm Technique + Edited NearestNeighbors Model (or SMOTEENN), we strike a balance of over and undersampling by boosting both groups to similar counts. This provided a balanced accuracy score of 64% for this test.
-### image 8
+![image7](/Resources/smoteenn.png)
+### Using the Synthetic Minority Oversamplignm Technique + Edited NearestNeighbors Model (or SMOTEENN), we strike a balance of over and undersampling by boosting both
+![image7](/Resources/smoteenn.png)
 ### -The high risk precision rate was 1% with a recall of 72%
 ### -The low risk precision was at 100% with a recall at 57%
 ## Additional Machine learning
