@@ -1,4 +1,4 @@
-# Credit Risk Analysis: Unsupervised Machine Learning 
+# Credit Risk Analysis: Supervised Machine Learning 
 ## Overview
 ### The objective of this exercise was to use an unsupervised machine learning module to sort out a large unbalanced data set of loans to predict which ones would be considered "good", where they would be paid back and "high risk", which would mean they would be likely defaulted. Bother oversampling and under sampling algorithms were conducted for this data set.
 ## Results
